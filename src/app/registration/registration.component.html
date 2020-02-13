@@ -1,0 +1,66 @@
+
+<body>
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Modal Heading</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+                <mat-form-field>
+                    <mat-label>
+                       First Name:
+                    </mat-label>
+                    <input matInput required>
+                    <mat-hint align="end">minimum 5 latters </mat-hint>
+                    <br>
+                    
+                    
+                </mat-form-field>
+                <br>
+                <mat-form-field>
+                    <mat-label>
+                        Last Name:
+                    </mat-label>
+                    <input matInput required>
+                    <mat-hint align="end">Sur-Name</mat-hint>
+                </mat-form-field>
+                <br>
+
+                <mat-form-field>
+                    <mat-label>
+                        Email:
+                    </mat-label>
+                    <input matInput placeholder="Email" required >
+                    <mat-hint align="end">example@some.com</mat-hint>
+                </mat-form-field>
+            
+             <br>
+             <mat-form-field>
+               <mat-label>
+                 Phone Number:
+               </mat-label>
+               
+               <input matInput placeholder="phone number" type="number"  required>
+               <mat-hint align="end">must be 10 digits</mat-hint>
+             </mat-form-field>
+
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+    
+    
+    </body>
